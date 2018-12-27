@@ -1,7 +1,6 @@
 # jsTransform
 > 封装transfom操作(提供动画效果)
 
-<br>
 
 ### 基本方法
 #### *cssTransform(attr, val, dynconf)
@@ -15,7 +14,6 @@
  
 #### *stopCssTransform
 
-<br>
  
 ### 使用示例
 ```
