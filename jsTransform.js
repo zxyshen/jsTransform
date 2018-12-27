@@ -174,10 +174,6 @@ let jsTransform = function(el) {
         let d = dynconf.time / 20
         let b = {}
         let c = {}
-        // for (var s in init.target) {
-        //     b[s] = css(init.el, s);
-        //     c[s] = init.target[s] - b[s];
-        // }
         b[attr] = noTime(element, attr)
         c[attr] = val - b[attr]
         clearInterval(element.cssTransformTimer)
